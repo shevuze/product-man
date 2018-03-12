@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,900|Roboto:300,400,700,900" rel="stylesheet");
+
+body{
+background: #ECECEC;
+font: 300 24px/1.5 Roboto, sans-serif;
+}
+
+/* Layout */
+.ba-container{
+	max-width: 1240px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+
+.ba-intro {
+	padding: 50px 0 50px;
+
+}
+
+.ba-header {
+	position: relative;
+
+}
+
+.ba-logo {
+	font: 900 48px/27px Roboto, sans-serif;
+	display: inline-block;
+	color: #2C2C2C;
+}
+
+.ba-nav {
+	display: inline-block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	right: 0;
+	top: -20px;
+
+
+}
+
+.ba-menu {
+	list-style: none;
+	display: inline-block;
+}
+
+.ba-menu a {
+	font: 400 18px/27px Roboto, sans-serif;
+	color: #303030
+}
+
+.ba-menu a:hover{
+	color: #e10011;
+	font-weight: 600;
+}
+
+.ba-menu li {
+	display: inline-block;
+	padding-right: 40px;
+
+}
+
+.ba-menu-list {
+	display: inline-block;
+}
+
+.ba-menu-list span{
+	display: block;
+	border-bottom: 3px solid;
+	padding-top: 2px;
+	width: 17px;
+	border-color: #2C2C2C;
+}
+
+a {
+	text-decoration: none;
+}
+
+.ba-slider {
+	max-width: 1200px;
+	font-size: 0;
+	padding-top: 100px;
+}
+
+
+.ba-column-left, .ba-column-right {
+	display: inline-block;
+	margin: 0;
+}
+
+.ba-column-left {
+	width: 50%;
+	font: 300 24px/36px Roboto, sans-serif;
+	text-align: right;
+	color: #303030;
+	margin: 0 9% 0 0;
+}
+
+.ba-column-right {
+	width: 40%;
+	vertical-align: top;
+	text-align: left;
+}
+
+.ba-product-title {
+	font: 900 150px/1 Raleway, sans-serif;
+	margin: 0;
+	text-align: right;
+}
+
+.ba-column-right .slider-img {
+	padding-left: 40px;
+}
+
+.ba-link-product-more {
+	color: #DF0009;
+	font-weight: 700;
+}
+
+.ba-link-product-more:hover{
+	color: black;
+}
+
+
+
+
+
