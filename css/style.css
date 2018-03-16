@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Raleway:400,900|Roboto:300,400,700,900" rel="stylesheet");
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,900|Roboto:300,400,700,900");
 
 body{
 background: #ECECEC;
@@ -61,7 +61,9 @@ textarea {
 }
 
 .ba-header {
-	position: relative;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
 
 }
 
@@ -72,20 +74,17 @@ textarea {
 }
 
 .ba-nav {
-	display: inline-block;
-	list-style: none;
-	margin: 0;
-	padding: 0;
-	position: absolute;
-	right: 0;
-	top: -20px;
+	flex-grow: 1;
 
 
 }
 
 .ba-menu {
+	display: flex;
+	justify-content: flex-end;
+	margin: 0;
+	padding: 0;
 	list-style: none;
-	display: inline-block;
 }
 
 .ba-menu a {
@@ -104,8 +103,11 @@ textarea {
 
 }
 
+
 .ba-menu-list {
-	display: inline-block;
+	display: flex;
+	justify-content: flex-end;
+
 }
 
 .ba-menu-list span{
@@ -156,6 +158,10 @@ a {
 	padding-left: 40px;
 }
 
+.slider-img {
+	flex-grow: 1;
+}
+
 .ba-link-product-more {
 	color: #DF0009;
 	font-weight: 700;
@@ -165,7 +171,102 @@ a {
 	color: black;
 }
 
+.ba-ftrd-products {
+	background: #fff;
+	padding: 100px 72px 72px 72px;
+	margin-top: 100px;
+}
 
+.ba-ftrd-products-title {
+	text-align: center;
+	font: 900 48px/1 Raleway, sans-serif;
+	margin: 14px 0 0 0;
+}
 
+.ba-ftrd-products-title:after {
+	content: "";
+	background-image: url("../img/underline.png");
+	background-repeat: no-repeat;
+	height: 18px;
+	display: block;
+	background-position: center;
+	margin-top: 20px;
+}
+
+.ba-prod-paragraph {
+	text-align: center;
+	max-width: 555px;
+	font: 400 18px/1 Raleway, sans-serif;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 13px;
+	padding-bottom: 40px;
+}
+
+.ba-prod-paragraph p {
+	margin: 0;
+}
+
+.ba-prod-link {
+	display: block;
+	background: red;
+	text-decoration: none;
+	position: relative;
+	border-radius: 5px;
+}
+
+.ba-prod-link img {
+	display: block;
+	max-width: 100%;
+}
+
+.ba-row-top {
+	padding-top: 38px;
+	margin-left: -36px;
+}
+
+.ba-row-bottom {
+	margin-left: -36px;
+	margin-top: 36px;
+}
+
+.ba-col-30 {
+	float: left;
+	width: 33%;
+	padding-left: 36px;
+}
+
+.ba-col-70 {
+	float: left;
+	width: 66%;
+	padding-left: 36px;
+}
+
+.ba-futured-product_description {
+	opacity: 0;
+	color: #FFF;
+	padding: 40px;
+	background: #e10011;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	margin: 0;
+}
+
+.ba-futured-product_description:hover {
+	opacity: 1;
+	border-radius: 5px;
+}
+
+.ba-bottom-line {
+	display: block;
+	border-bottom: 4px solid white;
+	max-width: 90px;
+}
 
 
